@@ -2,7 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { category } from './models/category';
-import { ListResponseModel } from './models/ListResponseModel';
+import { ListResponseModel } from '../app/models/listResponseModel';
 
 
 @Injectable({
